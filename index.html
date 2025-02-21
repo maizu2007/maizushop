@@ -1,25 +1,33 @@
-<html>
-    <head>
-        <meta charset="urf-8>
-        <meta name="viewport" content="width=device-width">
-        <title> bai tap tin </title>
-        <link href=style.css" rel="stylesheet" type="text/css" />
-    </head>
-  <body>
-    <form>
-      <label> Tên đăng nhập: </label>
-      <input type="text" id="username" name="username"> <br>
-
+<!DOCTYPE html><html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng Nhập</title>
+</head>
+<body>
+    <h2>Đăng Nhập</h2>
+    <form onsubmit="return loginUser()">
+        <label for="username">Tên đăng nhập</label>
+        <input type="text" id="username" required>
+        <br>
+        <label for="password">Mật khẩu</label>
+        <input type="password" id="password" required>
+        <br>
+        <button type="submit">Đăng Nhập</button>
+    </form><script>
+    function loginUser() {
+        const username = document.getElementById("username").value;
+        const password = document.getElementById("password").value;
         
-      </label>
-      
-    </form>
+        if (username === "admin" && password === "123456") {
+            window.location.href = "welcome.html";
+            return false;
+        } else {
+            alert("Sai tên đăng nhập hoặc mật khẩu!");
+            return false;
+        }
+    }
+</script>
 
-
-    
-  </body>
-
-
-
-  
+</body>
 </html>
