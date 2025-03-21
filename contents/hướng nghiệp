@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Ngành</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h1>hướng nghiệp với tin học</h1>
+ <ol>
+   <li>
+     giới thiệu nhóm nghề
+   </li>
+    <ul>nhóm nghề dịch vụ</ul>
+    <ul>nhóm nghề quản trị</ul>
+   <li>
+     một số nghề khác
+   </li>
+    <ul>một số nghề trong ngành công nghiệp phần mềm</ul>
+    <ul>chuyển đổi số và một số nghề liên quan</ul>
+    <ul>một số nghề trong truyền thông đa phương tiện</ul>
+    <ul>một số nghề trong các ngành khác</ul>
+   
+ </ol>
+  
+</body>
+</html>
