@@ -1,1 +1,59 @@
-
+<html>
+ <head>
+   <meta charset="utf-8">
+ </head>
+ <body>
+   <center><h1>
+     <h1 style="background-color: SeaGreen;padding: 0.3cm;">Thời khoá biểu</h1>
+     <style>
+       h1 {
+         color: white;
+       }
+     </style>
+      
+    </h1></center>
+   <table border="2">
+      <tr>
+         <th>.  .</th>
+         <th>Thứ hai</th>
+         <th>Thứ ba</th>
+         <th>Thứ tư</th>
+         <th>Thứ năm</th>
+         <th>Thứ sáu</th>
+      </tr>
+      <tr>
+         <td>tiết1</td>
+         <td>SHDC</td>
+         <td>văn</td>
+         <td>toán</td>
+         <td>lý</td>
+         <td>hoá</td>
+      </tr>
+      <tr>
+         <td>tiết2</td>
+         <td>SHCN</td>
+         <td>Văn</td>
+         <td>toán</td>
+         <td>lý</td>
+         <td>hoá</td>
+      </tr>
+      <tr>
+         <td>tiết3</td>
+         <td>Sinh</td>
+         <td>sử</td>
+         <td>địa</td>
+         <td>KTPL</td>
+         <td>tin</td>
+      </tr>
+      <tr>
+         <td>tiết4</td>
+         <td>GDQP</td>
+         <td>GDTC</td>
+         <td>HDTN</td>
+         <td>GDDP</td>
+         <td>Ngoại ngữ</td>
+      </tr>
+   </table>
+ </body>
+  
+</html>
